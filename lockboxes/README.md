@@ -1,5 +1,7 @@
 # Lockboxes
 
+![lockboxes](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/88f2e3fb-bd83-4015-afb1-323fbf89cdf2)
+
 ## Description
 Lockboxes is a Python programming project that presents an intriguing algorithmic challenge. The objective is to determine if all locked boxes can be opened using the available keys. Each box may contain keys to other boxes, thus creating an interesting puzzle to solve.
 
