@@ -5,7 +5,8 @@
 def canUnlockAll(boxes):
     """
       Function to determine if all boxes can be unlocked.
-      :param boxes: List of lists, where each sub-list contains keys to other boxes.
+      :param boxes: List of lists, where each sub-list contains keys
+                    to other boxes.
       :return: True if all boxes can be unlocked, False otherwise.
     """
     boxes_unlocked = set([0])
