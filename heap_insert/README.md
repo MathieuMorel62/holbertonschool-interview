@@ -277,7 +277,16 @@ gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-heap_insert.c
 
 ## List of Tasks to Complete
 0. [New Node](https://github.com/MathieuMorel62/holbertonschool-interview/blob/main/heap_insert/0-binary_tree_node.c): Function to create a new node.
+### Result:
+
+<img width="300" alt="Capture d’écran 2024-01-17 à 19 30 40" src="https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/e6e5e35e-10af-440a-820b-f41405eca932">
+<br>
+
+  
 1. [Heap - Insert](https://github.com/MathieuMorel62/holbertonschool-interview/blob/main/heap_insert/1-heap_insert.c): Function to insert a value into the heap.
+### Result:
+
+<img width="300" alt="Capture d’écran 2024-01-17 à 19 31 00" src="https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/d9c757d5-d20f-45b2-87a1-df6b4dc2a054">
 
 ## Contact
 - **LinkedIn Profile**: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
