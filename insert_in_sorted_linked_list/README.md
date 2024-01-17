@@ -1,5 +1,7 @@
 # Insert In Sorted Linked List
 
+![linked list](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/4b50d4db-a443-418d-ab71-5c152efb2c38)
+
 ## Description
 This project, **Ordered Insertion in a Linked List**, implements a function in C that inserts a number into a simply linked list while maintaining the order of the list. This project is essential for understanding complex data structures and their manipulations. The `insert_node` function effectively adds a new element to the appropriate position, thus ensuring the ascending order of the list elements.
 
