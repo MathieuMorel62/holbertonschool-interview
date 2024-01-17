@@ -1,6 +1,5 @@
 #include "binary_trees.h"
 
-
 /**
  * swap - exchanges the values of two nodes.
  * @a: first node
@@ -8,9 +7,9 @@
  */
 void swap(heap_t *a, heap_t *b)
 {
-    int temp = a->n;
-    a->n = b->n;
-    b->n = temp;
+	int temp = a->n;
+	a->n = b->n;
+	b->n = temp;
 }
 
 /**
@@ -21,12 +20,12 @@ void swap(heap_t *a, heap_t *b)
  */
 heap_t *heapify_up(heap_t *node)
 {
-    while (node->parent && node->n > node->parent->n)
+	while (node->parent && node->n > node->parent->n)
 	{
-        swap(node, node->parent);
-        node = node->parent;
-    }
-    return (node);
+		swap(node, node->parent);
+		node = node->parent;
+	}
+	return (node);
 }
 
 /**
@@ -37,8 +36,8 @@ heap_t *heapify_up(heap_t *node)
  */
 heap_t *create_node(heap_t *parent, int value)
 {
-    heap_t *node = binary_tree_node(parent, value);
-    return node;
+	heap_t *node = binary_tree_node(parent, value);
+	return node;
 }
 
 /**
@@ -50,12 +49,12 @@ heap_t *create_node(heap_t *parent, int value)
  */
 void enqueue(heap_t ***queue, size_t *rear, size_t *q_capacity, heap_t *node)
 {
-    if (*rear >= *q_capacity)
+	if (*rear >= *q_capacity)
 	{
-        *q_capacity *= 2;
-        *queue = realloc(*queue, sizeof(**queue) * *q_capacity);
-    }
-    (*queue)[(*rear)++] = node;
+		*q_capacity *= 2;
+		*queue = realloc(*queue, sizeof(**queue) * *q_capacity);
+	}
+	(*queue)[(*rear)++] = node;
 }
 
 /**
@@ -66,7 +65,7 @@ void enqueue(heap_t ***queue, size_t *rear, size_t *q_capacity, heap_t *node)
  */
 heap_t *dequeue(heap_t ***queue, size_t *front)
 {
-    return (*queue)[(*front)++];
+	return (*queue)[(*front)++];
 }
 
 /**
@@ -77,32 +76,33 @@ heap_t *dequeue(heap_t ***queue, size_t *front)
  */
 heap_t *breadth_first_insert(heap_t *root, int value)
 {
-    size_t front = 0, rear = 0, q_capacity = 1024;
-    heap_t **queue = malloc(sizeof(*queue) * q_capacity);
-    heap_t *node, *new_node = NULL;
+	size_t front = 0, rear = 0, q_capacity = 1024;
+	heap_t **queue = malloc(sizeof(*queue) * q_capacity);
+	heap_t *node, *new_node = NULL;
 
-    enqueue(&queue, &rear, &q_capacity, root);
-    while (front < rear) {
-        node = dequeue(&queue, &front);
-        if (!node->left || !node->right)
+	enqueue(&queue, &rear, &q_capacity, root);
+	while (front < rear)
+	{
+		node = dequeue(&queue, &front);
+		if (!node->left || !node->right)
 		{
-            new_node = create_node(node, value);
-            if (!node->left)
+			new_node = create_node(node, value);
+			if (!node->left)
 			{
-                node->left = new_node;
-            }
+				node->left = new_node;
+			}
 			else
 			{
-                node->right = new_node;
-            }
-            break;
-        }
-        enqueue(&queue, &rear, &q_capacity, node->left);
-        enqueue(&queue, &rear, &q_capacity, node->right);
-    }
+				node->right = new_node;
+			}
+			break;
+		}
+		enqueue(&queue, &rear, &q_capacity, node->left);
+		enqueue(&queue, &rear, &q_capacity, node->right);
+	}
 
-    free(queue);
-    return new_node;
+	free(queue);
+	return new_node;
 }
 
 /**
@@ -115,15 +115,15 @@ heap_t *breadth_first_insert(heap_t *root, int value)
  */
 heap_t *heap_insert(heap_t **root, int value)
 {
-    if (!root) 
-        return (NULL);
+	if (!root)
+		return (NULL);
 
-    if (!*root)
+	if (!*root)
 	{
-        *root = create_node(NULL, value);
-        return (*root);
-    }
+		*root = create_node(NULL, value);
+		return (*root);
+	}
 
-    heap_t *inserted_node = breadth_first_insert(*root, value);
-    return heapify_up(inserted_node);
+	heap_t *inserted_node = breadth_first_insert(*root, value);
+	return heapify_up(inserted_node);
 }
