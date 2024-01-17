@@ -172,6 +172,8 @@ gcc -Wall -Werror -Wextra -pedantic 0-main.c linked_lists.c 0-insert_number.c -o
 <summary>Result</summary>
 <br>
 
+<img width="300" alt="Capture d’écran 2024-01-17 à 19 58 42" src="https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/b97827f2-06ea-456f-a302-7bf614f2412c">
+
 </details>
 
 ## Contact
