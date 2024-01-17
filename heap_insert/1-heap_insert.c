@@ -1,5 +1,6 @@
 #include "binary_trees.h"
 
+
 /**
  * swap - Swap the values of two nodes
  *
@@ -9,6 +10,7 @@
 void swap(heap_t *a, heap_t *b)
 {
 	int temp = a->n;
+
 	a->n = b->n;
 	b->n = temp;
 }
@@ -105,5 +107,6 @@ heap_t *heap_insert(heap_t **root, int value)
 	}
 
 	heap_t *inserted_node = breadth_first_insert(*root, value);
-	return heapify_up(inserted_node);
+
+	return (heapify_up(inserted_node));
 }
