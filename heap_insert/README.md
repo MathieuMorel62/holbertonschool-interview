@@ -256,8 +256,6 @@ cd heap_insert
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 0-main.c 0-binary_tree_node.c -o 0-node
 ```
 
-and 
-
 ```c
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-heap_insert.c 0-binary_tree_node.c -o 1-heap_insert
 ```
@@ -267,8 +265,6 @@ gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-heap_insert.c
 ```bash
 ./0-node
 ```
-
-and
 
 ```c
 ./1-heap_insert
