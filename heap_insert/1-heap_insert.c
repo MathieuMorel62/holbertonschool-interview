@@ -14,7 +14,7 @@ void swap(heap_t *a, heap_t *b) {
 
 /**
  * heapify_up - reorganizes the heap by going backwards from a
- * 				given node until the max heap property is respected
+ * given node until the max heap property is respected
  * @node: node to heapify
  * Return: pointer to the heapified node
  */
@@ -95,8 +95,8 @@ heap_t *breadth_first_insert(heap_t *root, int value) {
 
 /**
  * heap_insert - inserts a new node into the heap. If the heap is empty,
- * 				the new node becomes the root. Otherwise, it uses breadth_first_insert
- * 				to insert the new node, then `heapify_up` to reorganize the heap.
+ * the new node becomes the root. Otherwise, it uses breadth_first_insert
+ * to insert the new node, then `heapify_up` to reorganize the heap.
  * @root: root of the tree
  * @value: value of the node to insert
  * Return: pointer to the inserted node
