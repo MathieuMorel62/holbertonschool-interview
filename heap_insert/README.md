@@ -1,5 +1,7 @@
 # Heap Insert
 
+![Heap Insert img](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/1a745e02-b915-4e61-b3b1-02ee0d0536dc)
+
 ## Description
 The Heap Insert project involves creating an insertion system in a Max Binary Heap. This system efficiently structures data for rapid operations like insertion, search, and deletion. The project is crucial for understanding the fundamentals of tree data structures and their applications in areas such as priority management in queues.
 
@@ -288,13 +290,13 @@ cd heap_insert
 
 3. Compile the source files with GCC:
 
-```bash
+```c
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 0-main.c 0-binary_tree_node.c -o 0-node
 ```
 
 and 
 
-```bash
+```c
 gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-heap_insert.c 0-binary_tree_node.c -o 1-heap_insert
 ```
 
@@ -306,7 +308,7 @@ gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 1-main.c 1-heap_insert.c
 
 and
 
-```bash
+```c
 ./1-heap_insert
 ```
 
