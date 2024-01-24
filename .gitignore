@@ -4,6 +4,7 @@ __pycache__
 # All main files
 main_*
 *-main.c
+*-main.py
 
 # insert in sorted linked list
 linked_lists.c
