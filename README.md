@@ -14,3 +14,10 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 2. [**Insert In Sorted Linked List**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/insert_in_sorted_linked_list): Implements a function in C for inserting a number into a simply linked list while maintaining its order. This algorithm focuses on understanding and manipulating complex data structures, specifically linked lists.
 
 3. [**Heap Insert**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/heap_insert): This algorithm implements an insertion method in a Max Binary Heap, essential for optimizing data operations like insertion and retrieval. It's key for understanding heap operations and tree-based data structures in programming.
+
+4. [**Minimum Operation**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/minimum_operations): This challenge involves finding the minimum number of operations needed to reach a certain number of 'H' characters in a text file, starting with a single 'H'. The only operations allowed are "Copy All" and "Paste", testing one's ability to devise a strategy for efficient operation sequencing and resource utilization.
+
+------------------
+
+## Contact
+- **LinkedIn Profile**: [Mathieu Morel]((https://www.linkedin.com/in/mathieu-morel-9ab457261/))
