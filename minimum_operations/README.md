@@ -1,4 +1,7 @@
-# Minimum Operations
+# <p align="center">Minimum Operations</p>
+
+![minOperation](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/9c5a57ef-b06f-4bb7-81d0-dfb5138fa728)
+
 
 ## Description
 The **Minimum Operations** project is an algorithmic challenge aimed at optimizing operations in a text editor. In a text file initially containing the character `H`, the editor can perform only two operations: **Copy All** and **Paste**. The goal is to determine the minimum number of operations required to obtain a specified number `n` of `H` characters in the file. This project highlights effective strategies for data manipulation and memory resource optimization.
@@ -49,7 +52,7 @@ cd minimum_operations
 3. Example of use:
 
 ```sh
-python3 0-main.py
+python3 main.py
 ```
 
 This will execute the main script that calculates the minimum number of operations to reach a specified number of `H` characters.
