@@ -67,5 +67,5 @@ This will execute the main script that calculates the minimum number of operatio
 - [**Minimum Operations**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/minimum_operations) : Creation of a method to calculate the minimum number of operations required to obtain `n` `H` characters.
 
 ## Contact
-- **LinkedIn Profile**: [Mathieu Morel]((https://www.linkedin.com/in/mathieu-morel-9ab457261/))
+- **LinkedIn Profile**: [Mathieu Morel](https://www.linkedin.com/in/mathieu-morel-9ab457261/)
 
