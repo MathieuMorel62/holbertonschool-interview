@@ -1,4 +1,7 @@
 # Sandpiles
+
+![sandpiles](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/3a9d367a-a95a-4420-a581-b0a8a8caf6b5)
+
 This project, entitled "Sandpiles", is a C programming challenge focused on algorithmics and complex problem solving. It involves the calculation of the sum of two piles of sand, represented in the form of 3x3 grids. Each cell of the grid contains a number representing the amount of grains of sand. The project focuses on developing effective solutions, compliance with coding standards, and a thorough understanding of data structures and algorithms.
 
 ## Ressources
