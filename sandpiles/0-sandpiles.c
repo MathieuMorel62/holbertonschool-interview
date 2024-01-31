@@ -15,7 +15,10 @@ static void print_grid(int grid[3][3])
 	for (row = 0; row < 3; row++)
 	{
 		for (col = 0; col < 3; col++)
-			printf("%d ", grid[row][col]);
+			if (col < 2)
+				printf("%d ", grid[row][col]);
+			else
+				printf("%d", grid[row][col]);
 		printf("\n");
 	}
 }
