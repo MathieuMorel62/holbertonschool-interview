@@ -39,6 +39,5 @@ int is_palindrome(listint_t **head)
 		if (arr[i] != arr[len - i - 1])
 			return (0);
 	}
-
 	return (1);
 }
