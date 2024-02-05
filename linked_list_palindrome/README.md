@@ -1,6 +1,6 @@
 # Linked List Palindrome
 
-![palindrome](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/9914272e-ea99-4afb-98b2-ecba9d080c89)
+![linked palindrome](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/556bfd70-a7ea-49cd-9e33-ea49169c7fa6)
 
 ## Description
 The "Linked List Palindrome" project is designed to develop a C application that checks if a linked list is a palindrome. A palindrome is a sequence that reads the same forwards and backwards. The project involves creating a linked list data structure, functions for adding and freeing nodes, and the main function to determine if the list is a palindrome. This project is crucial for understanding complex data structures and algorithms in computer science.
