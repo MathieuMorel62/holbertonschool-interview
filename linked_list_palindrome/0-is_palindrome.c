@@ -1,6 +1,5 @@
 #include "lists.h"
 
-
 /**
  * is_palindrome - Checks if a linked list is a palindrome.
  * A palindrome is a sequence that reads the same forwards and backwards.
@@ -9,31 +8,44 @@
  *
  * Return: 1 if the list is a palindrome, 0 if it's not.
  */
-int is_palindrome(listint_t **head) {
+int is_palindrome(listint_t **head)
+{
+    listint_t *current;
+    int len = 0, i = 0;
+    int *arr;
+
     if (*head == NULL || (*head)->next == NULL)
         return 1;
 
-    listint_t *slow = *head, *fast = *head, *prev, *temp;
-    while (fast && fast->next) {
-        fast = fast->next->next;
-        slow = slow->next;
+    current = *head;
+    while (current != NULL)
+    {
+        current = current->next;
+        len++;
     }
 
-    prev = NULL;
-    while (slow) {
-        temp = slow->next;
-        slow->next = prev;
-        prev = slow;
-        slow = temp;
+    arr = malloc(len * sizeof(int));
+    if (arr == NULL)
+        return (0);
+
+    current = *head;
+    i = 0;
+    while (current != NULL)
+    {
+        arr[i] = current->n;
+        current = current->next;
+        i++;
     }
 
-    listint_t *left = *head, *right = prev;
-    while (right) {
-        if (left->n != right->n)
-            return 0;
-        left = left->next;
-        right = right->next;
+    for (i = 0; i < len / 2; i++)
+    {
+        if (arr[i] != arr[len - i - 1])
+        {
+            free(arr);
+            return (0);
+        }
     }
 
-    return 1;
+    free(arr);
+    return (1);
 }
