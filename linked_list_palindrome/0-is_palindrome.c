@@ -8,44 +8,30 @@
  *
  * Return: 1 if the list is a palindrome, 0 if it's not.
  */
-int is_palindrome(listint_t **head)
-{
-    listint_t *current;
-    int len = 0, i = 0;
-    int *arr;
+int is_palindrome(listint_t **head) {
+    if (*head == NULL || (*head)->next == NULL)
+        return 1;
 
-    if (*head == NULL)
-        return (1);
-
-    current = *head;
-    while (current != NULL)
-    {
-        current = current->next;
-        len++;
+    listint_t *slow = *head, *fast = *head, *prev, *temp;
+    while (fast && fast->next) {
+        fast = fast->next->next;
+        slow = slow->next;
     }
 
-    arr = malloc(len * sizeof(int));
-    if (arr == NULL)
-        return (0);
-
-    current = *head;
-    i = 0;
-    while (current != NULL)
-    {
-        arr[i] = current->n;
-        current = current->next;
-        i++;
+    prev = NULL;
+    while (slow) {
+        temp = slow->next;
+        slow->next = prev;
+        prev = slow;
+        slow = temp;
     }
 
-    for (i = 0; i < len / 2; i++)
-    {
-        if (arr[i] != arr[len - i - 1])
-        {
-            free(arr);
-            return (0);
-        }
+    listint_t *left = *head, *right = prev;
+    while (right) {
+        if (left->n != right->n)
+            return 0;
+        left = left->next;
+        right = right->next;
     }
-
-    free(arr);
-    return (1);
+    return 1;
 }
