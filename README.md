@@ -19,6 +19,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 5. [**Sandpiles**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/sandpiles): This project involves a function for summing two sandpiles, focusing on stability conditions. It's a practical exercise in algorithm optimization and memory management.
 
+6. [**Linked List Palindrome**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/linked_list_palindrome): This challenge involves creating a C function to determine if a singly linked list is a palindrome, testing skills in data structures and algorithm efficiency.
+
 ------------------
 
 ## Contact
