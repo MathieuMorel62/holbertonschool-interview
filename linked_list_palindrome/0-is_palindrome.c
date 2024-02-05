@@ -1,5 +1,6 @@
 #include "lists.h"
 
+
 /**
  * is_palindrome - Checks if a linked list is a palindrome.
  * A palindrome is a sequence that reads the same forwards and backwards.
