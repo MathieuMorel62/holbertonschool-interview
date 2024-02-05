@@ -12,13 +12,12 @@ int is_palindrome(listint_t **head)
 {
 	listint_t *current;
 	int len = 0, j;
-	int *arr;
+	int *arr = 0;
 
 	if (*head == NULL)
 		return (1);
 
 	current = *head;
-	arr = malloc(sizeof(int) * len);
 	while (current != NULL)
 	{
 		arr[len] = current->n;
