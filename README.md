@@ -21,6 +21,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 6. [**Linked List Palindrome**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/linked_list_palindrome): This challenge involves creating a C function to determine if a singly linked list is a palindrome, testing skills in data structures and algorithm efficiency.
 
+7. [**Log Parsing**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/log_parsing): This project involves the creation of a Python script to read and analyze logs in real time from stdin. The script extracts metrics such as the total file size and the account of HTTP status codes in the logs, while managing non-compliant formats and user interruptions. This challenge tests the skills in regular expressions, data flow processing and signal management.
+
 ------------------
 
 ## Contact
