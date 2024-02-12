@@ -8,6 +8,7 @@ from time import sleep
 
 
 def print_stats(file_size, status_counts):
+    """ Print the file size and status codes"""
     print("File size:", file_size)
     for status_code in sorted(status_counts.keys()):
         print(f"{status_code}: {status_counts[status_code]}")
