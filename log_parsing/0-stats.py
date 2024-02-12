@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Parse logs and print statistics """
+"""Parse logs and print statistics"""
 
 import sys
 
@@ -17,12 +17,11 @@ http_status_count = {
 
 
 def print_statistics():
-    """ Print the collected statistics """
+    """Print the collected statistics"""
     print(f'File Size: {sum(file_sizes)}')
     for status_code, count in sorted(http_status_count.items()):
         if count:
             print(f'{status_code}: {count}')
-
 
 try:
     for line_number, line in enumerate(sys.stdin, start=1):
