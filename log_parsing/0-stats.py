@@ -8,16 +8,12 @@ import sys
 
 if __name__ == '__main__':
 
-    total_filesize, line_count = 0, 0
-    http_status_codes = ["200",
-                         "301",
-                         "400",
-                         "401",
-                         "403",
-                         "404",
-                         "405",
-                         "500"
-                         ]
+    total_filesize = 0
+    line_count = 0
+    http_status_codes = [
+        "200", "301", "400", "401",
+        "403", "404", "405", "500"
+    ]
     status_code_stats = {code: 0 for code in http_status_codes}
 
     def print_statistics(stats: dict, file_size: int) -> None:
