@@ -1,53 +1,43 @@
 #!/usr/bin/python3
-""" Script that reads stdin line by line and computes metrics """
+""" Parse logs and print statistics """
 
 import sys
-from collections import defaultdict
-import random
-from time import sleep
+
+file_sizes = [0]
+http_status_count = {
+    '200': 0,
+    '301': 0,
+    '400': 0,
+    '401': 0,
+    '403': 0,
+    '404': 0,
+    '405': 0,
+    '500': 0 
+}
 
 
-def print_stats(file_size, status_counts):
-    """
-    Print the file size and status code counts.
-
-    Args:
-        file_size (int): The total file size.
-        status_counts (dict): A dict containing the count of each status code.
-
-    Returns:
-        None
-    """
-    print("File size:", file_size)
-    for status_code in sorted(status_counts.keys()):
-        print(f"{status_code}: {status_counts[status_code]}")
+def print_statistics():
+    """ Print the collected statistics """
+    print(f'File Size: {sum(file_sizes)}')
+    for status_code, count in sorted(http_status_count.items()):
+        if count:
+            print(f'{status_code}: {count}')
 
 
-if __name__ == "__main__":
-    file_size = 0
-    status_counts = defaultdict(int)
-    line_count = 0
-
-    try:
-        for line in sys.stdin:
-            line = line.strip()
-            elements = line.split()
-
-            if len(elements) >= 5:
-                file_size += int(elements[-1])
-                status_code = elements[-2]
-
-                if status_code.isdigit():
-                    status_counts[status_code] += 1
-                line_count += 1
-
-            if line_count == 10:
-                print_stats(file_size, status_counts)
-                line_count = 0
-
-    except KeyboardInterrupt:
-        print_stats(file_size, status_counts)
-        sleep(random.random())
-        raise
-
-    print_stats(file_size, status_counts)
+try:
+    for line_number, line in enumerate(sys.stdin, start=1):
+        line_parts = line.rstrip().split()
+        try:
+            current_status_code = line_parts[-2]
+            current_file_size = line_parts[-1]
+            if current_status_code in http_status_count.keys():
+                http_status_count[current_status_code] += 1
+            file_sizes.append(int(current_file_size))
+        except Exception:
+            pass
+        if line_number % 10 == 0:
+            print_statistics()
+    print_statistics()
+except KeyboardInterrupt:
+    print_statistics()
+    raise
