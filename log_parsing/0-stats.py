@@ -20,7 +20,7 @@ if __name__ == '__main__':
         """
         Prints the accumulated statistics
         """
-        print("Total File Size: {:d}".format(file_size))
+        print("File Size: {:d}".format(file_size))
         for code, count in sorted(stats.items()):
             if count:
                 print("{}: {}".format(code, count))
