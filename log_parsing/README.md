@@ -1,6 +1,6 @@
-# Log Parsing
+# <p align="center">Log Parsing</p>
 
-![Image du projet Log Parsing](image-link)
+![log parsing](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/0f157020-7a1e-498f-a358-39c72af3001a)
 
 ## 📝 Description
 The "Log Parsing" project is a Python script designed to analyse logs. It reads entries line by line from standard input (stdin) and calculates metrics. The log data is formatted as `<IP address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>`. The script generates statistics after each batch of 10 lines or on keyboard abort (CTRL + C), including total file size and number of lines per status code.
