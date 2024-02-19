@@ -23,6 +23,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 7. [**Log Parsing**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/log_parsing): This project involves the creation of a Python script to read and analyze logs in real time from stdin. The script extracts metrics such as the total file size and the account of HTTP status codes in the logs, while managing non-compliant formats and user interruptions. This challenge tests the skills in regular expressions, data flow processing and signal management.
 
+8. [**Linked List Cycle**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/linked_list_cycle): This challenge consists of developing a C function capable of detecting a cycle in a simple chained list. This task is essential to avoid endless loops in data structures, thus optimizing memory management and algorithm performance. This project focuses on the in-depth understanding of chained lists and techniques to identify potentially complex problems in data structures.
+
 ------------------
 
 ## Contact
