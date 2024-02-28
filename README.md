@@ -25,6 +25,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 8. [**Linked List Cycle**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/linked_list_cycle): This challenge consists of developing a C function capable of detecting a cycle in a simple chained list. This task is essential to avoid endless loops in data structures, thus optimizing memory management and algorithm performance. This project focuses on the in-depth understanding of chained lists and techniques to identify potentially complex problems in data structures.
 
+9. [**Palindrome Integer**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/palindrome_integer): This project involves writing a function in C to determine whether a given unsigned integer is a palindrome. This task is essential to understand the basic concepts of C programming, including number manipulation and the implementation of logical algorithms.
+
 ------------------
 
 ## Contact
