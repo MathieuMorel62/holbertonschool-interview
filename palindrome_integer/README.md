@@ -1,5 +1,7 @@
 # <p align="center">Palindrome Integer</p>
 
+<img src="https://i.ytimg.com/vi/59V9QcuayIQ/maxresdefault.jpg">
+
 ## 📝 Description
 The "Palindrome Integer" project consists of writing a function in C that determines whether a given unsigned integer is a palindrome. This task is essential to understand the basic concepts of C programming, including number manipulation and the implementation of logical algorithms.
 
@@ -58,7 +60,7 @@ Example:
 ## ✨ Main Features
 1. **Palindrome verification**: The main function `is_palindrome` checks if a number is a palindrome.
 
-## 📝 List of Tasks to be carried out
+## 📝 List of Tasks
 0. [**Palindrome unsigned integer**](https://github.com/MathieuMorel62/holbertonschool-interview/blob/main/palindrome_integer/0-is_palindrome.c): Write a function that checks if a given unsigned integer is a palindrome. Prototype: `int is_palindrome(unsigned long n);`. The function must return 1 if n is a palindrome and 0 otherwise.
 
 ## Contact
