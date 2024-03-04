@@ -1,6 +1,7 @@
-UTF-8 Validation
+# <p align="center">UTF-8 Validation</p>
 
-![ Image of the project Validation UTF-8](link_to_image)
+![utf](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/f5776aef-1af7-44b1-a812-d34d7af539da)
+
 
 ## 📝 Description
 This project consists of writing a method to determine whether a data set represents a valid UTF-8 encoding. The `validUTF8(data)` method returns `True` if the data is a valid UTF-8 encoding, otherwise `False`. Each character in UTF-8 can be 1 to 4 bytes long, and the data set can contain several characters. The data is represented by a list of integers, each integer representing 1 byte of data, and only the least significant 8 bits of each integer are processed.
@@ -9,7 +10,7 @@ This project consists of writing a method to determine whether a data set repres
 - [Documentation UTF-8](https://fr.wikipedia.org/wiki/UTF-8)
 - [Python 3 Documentation](https://docs.python.org/3/)
 - [PEP Style Guide 8](https://www.python.org/dev/peps/pep-0008/)
-- [Other resources as needed]
+- [Characters, Symbols, and the Unicode Miracle](https://www.youtube.com/watch?v=MijmeoH9LT4)
 
 ## 🛠️ Technologies and Tools Used
 - **Python 3**: Main programming language for the implementation of the algorithm.
