@@ -27,6 +27,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 9. [**Palindrome Integer**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/palindrome_integer): This project involves writing a function in C to determine whether a given unsigned integer is a palindrome. This task is essential to understand the basic concepts of C programming, including number manipulation and the implementation of logical algorithms.
 
+10. [**UTF8 Validation**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/utf8_validation): This project involves creating a `validUTF8(data)` method to check if a data set is a valid UTF-8 encoding. Each UTF-8 character can be 1 to 4 bytes long. The data, represented by a list of integers (each integer representing 1 byte), only processes the least significant 8 bits of each integer.
+
 ------------------
 
 ## Contact
