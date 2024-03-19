@@ -7,58 +7,65 @@
  */
 void merge_and_slide_left(int *line, size_t size)
 {
-    size_t index = 0;
-	size_t i;
+    size_t i, j = 0;
 
     for (i = 0; i < size; i++)
 	{
         if (line[i] != 0)
 		{
-            if (index < i)
+            if (j > 0 && line[j - 1] == line[i])
 			{
-                line[index] = line[i];
+                line[j - 1] *= 2;
                 line[i] = 0;
-            }
-            if (i + 1 < size && line[i + 1] == line[index])
-			{
-                line[index++] *= 2;
-                line[i + 1] = 0;
             }
 			else
 			{
-                index++;
+                if (j != i)
+				{
+                    line[j] = line[i];
+                    line[i] = 0;
+                }
+                j++;
             }
         }
     }
 }
+
 
 /**
  * merge_and_slide_right - Slides and merges an array to the right.
  * @line: Points to an array of integers containing size elements.
  * @size: Number of elements in @line.
  */
-void merge_and_slide_right(int *line, size_t size) {
-    size_t index, i;
+void merge_and_slide_right(int *line, size_t size)
+{
+    if (size == 0)
+		return;
 
-    if (size == 0) return;
+    size_t i, j = size - 1;
 
-    index = size - 1;
-
-    for (i = size - 1; i < size; i--) {
-        if (line[i] != 0) {
-            if (i < index) {
-                line[index] = line[i];
+    for (i = size - 1; i < size; i--)
+	{
+        if (line[i] != 0)
+		{
+            if (j < size - 1 && line[j + 1] == line[i])
+			{
+                line[j + 1] *= 2;
                 line[i] = 0;
             }
-            if (i > 0 && line[i - 1] == line[index]) {
-                line[index--] *= 2;
-                line[i - 1] = 0;
-            } else if (i > 0) {
-                index--;
+			else
+			{
+                if (j != i)
+				{
+                    line[j] = line[i];
+                    line[i] = 0;
+                }
+                j--;
             }
         }
     }
 }
+
 
 /**
  * slide_line - Slides and merges an array of integers
