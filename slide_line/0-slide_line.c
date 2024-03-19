@@ -37,28 +37,23 @@ void merge_and_slide_left(int *line, size_t size)
  * @line: Points to an array of integers containing size elements.
  * @size: Number of elements in @line.
  */
-void merge_and_slide_right(int *line, size_t size)
-{
+void merge_and_slide_right(int *line, size_t size) {
     if (size == 0) return;
 
-    size_t index = size - 1;
+    size_t index, i;
 
-    for (int i = size - 1; i >= 0; i--)
-	{
-        if (line[i] != 0)
-		{
-            if ((size_t)i < index)
-			{
+    index = size - 1;
+
+    for (i = size - 1; i < size; i--) {
+        if (line[i] != 0) {
+            if (i < index) {
                 line[index] = line[i];
                 line[i] = 0;
             }
-            if (i - 1 >= 0 && line[i - 1] == line[index])
-			{
+            if (i > 0 && line[i - 1] == line[index]) {
                 line[index--] *= 2;
                 line[i - 1] = 0;
-            }
-			else
-			{
+            } else if (i > 0) {
                 index--;
             }
         }
