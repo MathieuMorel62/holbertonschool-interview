@@ -1,4 +1,6 @@
-# <p align="center">2048 (single line)</p>
+# <p align="center">2048 (Single Line)</p>
+
+![slide line 2048](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/c7806942-048c-437d-8053-4796f1d1a89a)
 
 ## 📝 Description
 
