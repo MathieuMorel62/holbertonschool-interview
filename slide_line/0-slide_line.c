@@ -1,6 +1,21 @@
 #include "slide_line.h"
 
 /**
+ * merge_left - merges an array of integers to the left
+ * @line: points to an array of integers containing size elements
+ * @size: number of elements
+*/
+void merge_left(int *line, size_t size) {
+    for (size_t i = 0; i < size - 1; i++) {
+        if (line[i] != 0 && line[i] == line[i + 1]) {
+            line[i] *= 2;
+            line[i + 1] = 0;
+            i++;
+        }
+    }
+}
+
+/**
  * slide_left - slides an array of integers to the left
  * @line: points to an array of integers containing size elements
  * @size: number of elements
@@ -14,21 +29,6 @@ void slide_left(int *line, size_t size) {
                 line[i] = 0;
             }
             j++;
-        }
-    }
-}
-
-/**
- * merge_left - merges an array of integers to the left
- * @line: points to an array of integers containing size elements
- * @size: number of elements
-*/
-void merge_left(int *line, size_t size) {
-    for (size_t i = 0; i < size - 1; i++) {
-        if (line[i] != 0 && line[i] == line[i + 1]) {
-            line[i] *= 2;
-            line[i + 1] = 0;
-            i++;
         }
     }
 }
@@ -75,11 +75,11 @@ void merge_right(int *line, size_t size) {
 */
 int slide_line(int *line, size_t size, int direction) {
     if (direction == SLIDE_LEFT) {
-        merge_left(line, size);
         slide_left(line, size);
+        merge_left(line, size);
     } else if (direction == SLIDE_RIGHT) {
-        merge_right(line, size);
         slide_right(line, size);
+        merge_right(line, size);
     } else {
         return 0;
     }
