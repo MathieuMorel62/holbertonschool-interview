@@ -38,9 +38,9 @@ void merge_and_slide_left(int *line, size_t size)
  * @size: Number of elements in @line.
  */
 void merge_and_slide_right(int *line, size_t size) {
-    if (size == 0) return;
-
     size_t index, i;
+
+    if (size == 0) return;
 
     index = size - 1;
 
