@@ -29,6 +29,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 10. [**UTF8 Validation**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/utf8_validation): This project involves creating a `validUTF8(data)` method to check if a data set is a valid UTF-8 encoding. Each UTF-8 character can be 1 to 4 bytes long. The data, represented by a list of integers (each integer representing 1 byte), only processes the least significant 8 bits of each integer.
 
+11. [**Slide Line**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/slide_line): This project involves creating a function in C to reproduce the mechanics of the 2048 game on a single horizontal line. The function must slide and merge an array of integers, simulating the game's mechanics. This task is essential to understand the manipulation of arrays and the implementation of logical algorithms.
+
 ------------------
 
 ## Contact
