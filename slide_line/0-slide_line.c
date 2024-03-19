@@ -39,10 +39,12 @@ void merge_and_slide_left(int *line, size_t size)
  */
 void merge_and_slide_right(int *line, size_t size)
 {
+    size_t i, j;
+
     if (size == 0)
 		return;
 
-    size_t i, j = size - 1;
+	j = size - 1;
 
     for (i = size - 1; i < size; i--)
 	{
