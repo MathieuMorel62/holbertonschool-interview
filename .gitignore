@@ -14,6 +14,7 @@ insert
 # heap insert and extract
 0-node
 1-heap_insert
+0-menger
 
 # sandpiles file compilation
 0-sandpiles
