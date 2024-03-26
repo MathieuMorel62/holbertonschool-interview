@@ -1,5 +1,7 @@
 # <p align="center">Menger Sponge</p>
 
+![sponge](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/354eb2b6-c7e1-48e4-ab7f-057845daf1a1)
+
 ## 📝 Description
 
 The Menger Sponge project aims to create a visual representation of a Menger sponge in 2D. This project highlights the concepts of fractals and algorithmic programming, allowing users to visualize different levels of complexity of this fascinating fractal structure.
