@@ -31,6 +31,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 11. [**Slide Line**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/slide_line): This project involves creating a function in C to reproduce the mechanics of the 2048 game on a single horizontal line. The function must slide and merge an array of integers, simulating the game's mechanics. This task is essential to understand the manipulation of arrays and the implementation of logical algorithms.
 
+12. [**Menger Sponge**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/menger): This project aims to create a visual representation of a Menger sponge in 2D. This project highlights the concepts of fractals and algorithmic programming, allowing users to visualize different levels of complexity of this fascinating fractal structure.
+
 ------------------
 
 ## Contact
