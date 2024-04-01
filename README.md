@@ -33,6 +33,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 12. [**Menger Sponge**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/menger): This project aims to create a visual representation of a Menger sponge in 2D. This project highlights the concepts of fractals and algorithmic programming, allowing users to visualize different levels of complexity of this fascinating fractal structure.
 
+13. [**N Queens**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/nqueens): This project involves solving the N Queens problem, which consists of placing N queens on an N×N chessboard without them attacking each other. This is an application of the backtracking algorithm, providing all possible solutions to this classic problem. This project illustrates a practical application of algorithms and Python programming concepts.
+
 ------------------
 
 ## Contact
