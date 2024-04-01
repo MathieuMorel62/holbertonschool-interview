@@ -1,8 +1,10 @@
 # <p align="center">N Queens</p>
 
+![queens](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/32c5297c-6380-40f5-b766-e0eceffddbe6)
+
 ## 📝 Description
 
-The "N Queens" project takes up the challenge of placing N queens on an N×N chessboard without them attacking each other. This is an application of the backtracking algorithm. The program provides all possible solutions to this classic problem, illustrating a practical application of the concepts of algorithms and Python programming.
+The **N Queens** project takes up the challenge of placing N queens on an N×N chessboard without them attacking each other. This is an application of the backtracking algorithm. The program provides all possible solutions to this classic problem, illustrating a practical application of the concepts of algorithms and Python programming.
 
 ## 📚 Resources
 
