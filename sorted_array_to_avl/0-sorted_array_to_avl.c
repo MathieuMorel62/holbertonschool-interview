@@ -42,6 +42,9 @@ avl_t *sortedArrayToAVL(int *array, int start, int end, avl_t *parent)
 	mid = (start + end) / 2;
 	root = create_node(array[mid]);
 
+	if (root == NULL)
+		return (NULL);
+
 	root->parent = parent;
 	root->left = sortedArrayToAVL(array, start, mid - 1, root);
 	root->right = sortedArrayToAVL(array, mid + 1, end, root);
