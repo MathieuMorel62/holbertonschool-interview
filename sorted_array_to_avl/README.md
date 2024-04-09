@@ -1,5 +1,7 @@
 # <p align="center">Sorted Array To AVL</p>
 
+![array to avl](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/23c589c1-b52f-490d-82ae-2ca3f0f0df9d)
+
 ## 📝 Description
 
 This project aims to build an AVL tree (Adelson-Velsky and Landis Tree) from a sorted table. The goal is to effectively convert an array into a balanced binary tree structure, thus optimizing search, insertion and deletion operations.
