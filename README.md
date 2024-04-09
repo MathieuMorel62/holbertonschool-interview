@@ -35,6 +35,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 13. [**N Queens**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/nqueens): This project involves solving the N Queens problem, which consists of placing N queens on an N×N chessboard without them attacking each other. This is an application of the backtracking algorithm, providing all possible solutions to this classic problem. This project illustrates a practical application of algorithms and Python programming concepts.
 
+14. [**Sorted Array To AVL**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/sorted_array_to_avl): This project aims to build an AVL tree (Adelson-Velsky and Landis Tree) from a sorted table. The goal is to effectively convert an array into a balanced binary tree structure, thus optimizing search, insertion and deletion operations.
+
 ------------------
 
 ## Contact
