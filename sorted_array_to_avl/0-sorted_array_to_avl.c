@@ -10,7 +10,7 @@ avl_t *create_node(int value)
 {
 	avl_t *new_node;
 
-	new_node = malloc(sizeof(avl_t));
+	new_node = (avl_t *)malloc(sizeof(avl_t));
 	if (new_node == NULL)
 		return (NULL);
 
