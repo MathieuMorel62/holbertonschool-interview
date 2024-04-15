@@ -1,4 +1,6 @@
-# <p align="center">Linear Skip</p>
+# <p align="center">Linear Search In Skip List</p>
+
+![skip list](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/e936c1f7-85d8-4026-a606-e9492854f370)
 
 ## 📝 Description
 
