@@ -10,10 +10,10 @@
  */
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
-	skiplist_t *node = list, *express = list->express, *last = node;
-
-	if (list == NULL)
+	if (!list)
 		return (NULL);
+
+	skiplist_t *node = list, *express = list->express, *last = node;
 
 	while (express != NULL && express->n < value)
 	{
