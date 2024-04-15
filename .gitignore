@@ -21,6 +21,12 @@ insert
 palindrome
 0-slide_line
 0-sorted_array_to_avl
+0-linear_skip
+
+# Skiplist files
+create_skiplist.c
+free_skiplist.c
+print_skiplist.c
 
 # linked list cycle
 cycle
