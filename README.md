@@ -37,6 +37,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 14. [**Sorted Array To AVL**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/sorted_array_to_avl): This project aims to build an AVL tree (Adelson-Velsky and Landis Tree) from a sorted table. The goal is to effectively convert an array into a balanced binary tree structure, thus optimizing search, insertion and deletion operations.
 
+15. [**Linear Skip**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/linear_skip): This project implements a search for values in a chained list optimized by a fast track called "skip list". A skip list is a data structure that allows faster searches than a traditional chained list using "express lanes". This project was designed to improve the temporal complexity of linear searches in chained lists by adding this optimization layer.
+
 ------------------
 
 ## Contact
