@@ -1,5 +1,7 @@
 # <p align="center">Starwars Api</p>
 
+<img src="https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/2b8d8bf9-97fc-4cb5-9bf8-a9bbd2372430" width="100%" height="550px" />
+
 ## 📝 Description
 
 This project is developing an API to access information from characters from Star Wars movies. It uses the public Star Wars API to retrieve character data based on the movie identifier given as an argument. This project is particularly useful for Star Wars developers and fans wishing to explore in a programmed way the details of the different characters in the movies.
