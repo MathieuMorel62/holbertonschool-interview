@@ -5,6 +5,7 @@ __pycache__
 main_*
 *-main.c
 *-main.py
+*_main.py
 0-generator.py
 
 # insert in sorted linked list
