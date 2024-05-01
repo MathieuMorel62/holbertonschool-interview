@@ -41,6 +41,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 16. [**Starwars API**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/starwars_api): This project is developing an API to access information from characters from Star Wars movies. It uses the public Star Wars API to retrieve character data based on the movie identifier given as an argument. This project is particularly useful for Star Wars developers and fans wishing to explore in a programmed way the details of the different characters in the movies.
 
+17. [**Rain**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/rain): This project involves creating a function in C to calculate the amount of rainwater retained after a rainstorm. The function receives an array of non-negative integers representing the heights of walls, and calculates the amount of water retained between the walls. This project is essential to understand the manipulation of arrays and the implementation of logical algorithms.
+
 ------------------
 
 ## Contact
