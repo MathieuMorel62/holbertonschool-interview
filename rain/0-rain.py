@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Rainwater problem """
 
+
 def rain(walls):
     """ Calculate how much rainwater can be trapped """
     if not walls:
