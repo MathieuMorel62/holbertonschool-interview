@@ -1,7 +1,6 @@
 # <p align="center">Rain</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-</p>
+
+![rain](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/3bf5ff82-320b-48ce-b82d-4dcf729d4edc)
 
 ## 📝 Description
 
@@ -80,8 +79,11 @@ Run the main script to see the water retention simulation:
 
 - Visual representation of the walls [0, 1, 0, 2, 0, 3, 0, 4]:
 
+<img width="450" alt="graph1" src="https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/7479595b-10a8-403c-a7c3-4d6d677f959d">
 
 - Visual representation of the walls [2, 0, 0, 4, 0, 0, 1, 0]:
+
+<img width="450" alt="graph2" src="https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/51f68457-5a0e-4b28-9bd9-70f9167c7d2c">
 
 ## ✨ Main Features
 
