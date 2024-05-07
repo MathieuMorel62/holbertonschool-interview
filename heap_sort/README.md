@@ -1,5 +1,7 @@
 # <p align='center'>🌟 Heap Sort 🌟</p>
 
+![heap sort](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/885acb3e-58e5-4267-afac-ae82029dab61)
+
 ## 📝 Description
 
 Heap Sort is an effective sorting algorithm based on a data structure called heap. It is used to sort lists or tables in ascending or descending order. The algorithm is based on building a heap from the list to be sorted, followed by a series of deletions of the root node to obtain a sorted list.
