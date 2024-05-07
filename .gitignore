@@ -23,6 +23,7 @@ palindrome
 0-slide_line
 0-sorted_array_to_avl
 0-linear_skip
+0-heap
 
 # Skiplist files
 create_skiplist.c
