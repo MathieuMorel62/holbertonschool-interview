@@ -43,6 +43,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 17. [**Rain**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/rain): This project involves creating a function in C to calculate the amount of rainwater retained after a rainstorm. The function receives an array of non-negative integers representing the heights of walls, and calculates the amount of water retained between the walls. This project is essential to understand the manipulation of arrays and the implementation of logical algorithms.
 
+18. [**heap_sort**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/heap_sort): This project involves implementing the Heap Sort algorithm in C. Heap Sort is an efficient sorting algorithm based on a data structure called heap. It is used to sort lists or tables in ascending or descending order. The algorithm is based on building a heap from the list to be sorted, followed by a series of deletions of the root node to obtain a sorted list. This project is particularly useful for real-time applications and embedded systems because of its stable temporal complexity of O(n log n) and its efficiency in memory.
+
 ------------------
 
 ## Contact
