@@ -17,13 +17,14 @@ insert
 1-heap_insert
 0-menger
 
-# sandpiles file compilation
+# file compilation
 0-sandpiles
 palindrome
 0-slide_line
 0-sorted_array_to_avl
 0-linear_skip
 0-heap
+0-advanced_binary
 
 # Skiplist files
 create_skiplist.c
