@@ -1,5 +1,7 @@
 # <p align="center">🌟 Advanced Binary Search 🌟</p>
 
+![binary](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/4e7c583f-f28c-453a-a83b-896c0ae7f935)
+
 ## 📝 Description
 
 The `Advanced Binary Search` project is designed to address a complex variant of traditional binary search, which is often limited by the fact that it does not necessarily return the index of the first occurrence of a value in an array. This project aims to solve this problem by developing a function that can locate the first occurrence of a value in an array of sorted integers.
@@ -8,11 +10,11 @@ The function developed in this project, `advanced_binary`, takes as input an arr
 
 ## 📚 Resources
 
-- [Betty Style Checker](https://github.com/hs-hq/Betty/blob/master/betty-style.pl) - Tool used to check the compliance of the coding style.
-- [Betty Doc Checker](https://github.com/hs-hq/Betty/blob/master/betty-doc.pl) - Tool to check source code documentation.
-- [C Programming Language](https://www.learn-c.org/) - Resource to learn the C programming language used in this project.
-- [Understanding Binary Search Algorithm](https://www.geeksforgeeks.org/binary-search/) - Article de GeeksforGeeks expliquant en détail le fonctionnement de l'algorithme de recherche binaire et ses variantes.
-- [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm) - Wikipedia article explaining the binary search algorithm and its variants.
+- [Betty Style Checker](https://github.com/hs-hq/Betty/blob/master/betty-style.pl)
+- [Betty Doc Checker](https://github.com/hs-hq/Betty/blob/master/betty-doc.pl)
+- [C Programming Language](https://www.learn-c.org/)
+- [Understanding Binary Search Algorithm](https://www.geeksforgeeks.org/binary-search/)
+- [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
 ## 🛠️ Technologies and Tools Used
 
