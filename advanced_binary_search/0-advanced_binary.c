@@ -40,7 +40,7 @@ int print_array(int *array, int left, int right)
  */
 int advanced_binary_rec(int *array, int left, int right, int value)
 {
-	int middle = 0;
+	int middle;
 
 	if (left > right)
 		return (-1);
@@ -50,14 +50,14 @@ int advanced_binary_rec(int *array, int left, int right, int value)
 	middle = left + (right - left) / 2;
 	if (array[middle] == value)
 	{
-		if (middle == left || array[middle - 1] != value)
+		if (middle == left || array[middle] != value)
 			return (middle);
 		else
-			return (advanced_binary_rec(array, left, middle - 1, value));
+			return (advanced_binary_rec(array, left, middle, value));
 	}
 	else if (array[middle] > value)
 	{
-		return (advanced_binary_rec(array, left, middle - 1, value));
+		return (advanced_binary_rec(array, left, middle, value));
 	}
 	else
 	{
