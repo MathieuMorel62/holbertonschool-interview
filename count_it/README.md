@@ -1,5 +1,7 @@
 # <p align="center">🌟 Count it! 🌟</p>
 
+![count it](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/39ee97fa-daed-477e-9cef-609a42c54682)
+
 ## 📝 Description
 
 **Count it!** Is a project developed to interact with the Reddit API and analyze the titles of popular articles. The project focuses on creating a recursive function capable of querying the Reddit API, analyzing the titles of popular articles, and counting occurrences of specific keywords in a case-insensitive way.
