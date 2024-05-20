@@ -47,6 +47,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 19. [**Advanced Binary Search**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/advanced_binary_search): "Advanced Binary Search" improves classic binary search by developing `advanced_binary`, a function that finds the first occurrence of a value in a sorted array. This recursive function, which displays sub-tables at each step, optimizes searches in situations where precision is essential.
 
+20. [**Count It!**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/count_it): **Count it!** is a project designed to interact with the Reddit API and analyze the titles of popular articles. It creates a recursive function that queries the API, analyzes titles and counts occurrences of specific keywords in a case-insensitive way. This project tests the skills in API manipulation, word processing and recursive programming, presenting the results sorted by frequency and alphabetical order.
+
 ------------------
 
 ## Contact
