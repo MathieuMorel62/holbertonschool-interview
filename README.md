@@ -49,6 +49,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 20. [**Count It!**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/count_it): **Count it!** is a project designed to interact with the Reddit API and analyze the titles of popular articles. It creates a recursive function that queries the API, analyzes titles and counts occurrences of specific keywords in a case-insensitive way. This project tests the skills in API manipulation, word processing and recursive programming, presenting the results sorted by frequency and alphabetical order.
 
+21. [**Heap Extract**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/heap_extract): The **Heap Extract** project implements an algorithm to extract the root of a maximum binary heap. It focuses on the management and manipulation of advanced data structures in C, including binary trees and binary heaps. The main objective is to provide a robust function that removes the root of the pile, replaces it with the last node and rearranges the pile if necessary. This project deals with key concepts such as memory management and heap sorting algorithms.
+
 ------------------
 
 ## Contact
