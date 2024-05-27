@@ -1,5 +1,7 @@
 # <p align="center">🌟 Heap Extract 🌟</p>
 
+![heap_x](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/1efdf56b-fd1d-4fda-a244-cdce022882ae)
+
 ## 📝 Description
 
 The **Heap Extract** project is an implementation of an algorithm to extract the root of a maximum binary heap (Max Binary Heap). This project focuses on the management and manipulation of advanced C data structures, especially binary trees and binary heaps.
