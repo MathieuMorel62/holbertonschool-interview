@@ -43,19 +43,23 @@ void heapify_down(heap_t *root)
  */
 heap_t *get_last_node(heap_t *root)
 {
-	size_t height = 0;
-	heap_t *last = root;
+	heap_t *queue[1024];
+	int front = 0, rear = 0;
+	heap_t *last = NULL;
 
-	while (last->left)
+	if (!root)
+		return (NULL);
+
+	queue[rear++] = root;
+	while (front < rear)
 	{
-		last = last->left;
-		height++;
+		last = queue[front++];
+		if (last->left)
+			queue[rear++] = last->left;
+		if (last->right)
+			queue[rear++] = last->right;
 	}
-	while (last->right)
-	{
-		last = last->right;
-		height++;
-	}
+
 	return (last);
 }
 
@@ -84,15 +88,22 @@ int heap_extract(heap_t **root)
 	}
 
 	last_node = get_last_node(root_node);
-	root_node->n = last_node->n;
 
+	if (last_node == root_node)
+	{
+		free(root_node);
+		*root = NULL;
+		return (value);
+	}
+
+	root_node->n = last_node->n;
 	if (last_node->parent->left == last_node)
 		last_node->parent->left = NULL;
 	else
 		last_node->parent->right = NULL;
 
 	free(last_node);
-	heapify_down(*root);
+	heapify_down(root_node);
 
 	return (value);
 }
