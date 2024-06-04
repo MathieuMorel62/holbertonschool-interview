@@ -51,6 +51,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 21. [**Heap Extract**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/heap_extract): The **Heap Extract** project implements an algorithm to extract the root of a maximum binary heap. It focuses on the management and manipulation of advanced data structures in C, including binary trees and binary heaps. The main objective is to provide a robust function that removes the root of the pile, replaces it with the last node and rearranges the pile if necessary. This project deals with key concepts such as memory management and heap sorting algorithms.
 
+22. [**Infinite Multiplication**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/infinite_multiplication): The **Infinite Multiplication** project is developing a program to multiply two large positive numbers. It manages input errors, uses specific C functions and complies with Betty coding standards, highlighting the optimization and efficiency of algorithms.
+
 ------------------
 
 ## Contact
