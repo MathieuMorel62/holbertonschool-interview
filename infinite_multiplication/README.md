@@ -1,5 +1,7 @@
 # <p align="center">🌟 Infinite Multiplication 🌟</p>
 
+![multi](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/bef76f37-88b7-4685-9d62-76f629a48c16)
+
 ## 📝 Description
 
 The **Infinite Multiplication** project aims to develop a program capable of multiplying two large positive numbers. This application is particularly useful in contexts where standard arithmetic operations are not enough because of the size of the numbers to be manipulated. The program takes two numbers in base 10 and displays the result of their multiplication.
