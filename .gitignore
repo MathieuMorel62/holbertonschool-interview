@@ -1,39 +1,39 @@
 # All __pycache__ directories
 __pycache__
 
-# All main files
+# Main files
 main_*
 *-main.c
 *-main.py
 *_main.py
+
+# Py Files
 0-generator.py
 
-# insert in sorted linked list
-linked_lists.c
-insert
+# C files
+_putchar.c
 
-# heap insert and extract
-0-node
-1-heap_insert
+# Files compiled
+0-advanced_binary
+0-heap
+0-linear_skip
 0-menger
-
-# file compilation
+0-node
 0-sandpiles
-palindrome
 0-slide_line
 0-sorted_array_to_avl
-0-linear_skip
-0-heap
-0-advanced_binary
+1-heap_insert
+cycle
+insert
+mul
+palindrome
 
 # Skiplist files
+0-linked_lists.c
 create_skiplist.c
 free_skiplist.c
+linked_lists.c
 print_skiplist.c
-
-# linked list cycle
-cycle
-0-linked_lists.c
 
 # linter and betty
 Betty
