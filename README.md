@@ -53,6 +53,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 22. [**Infinite Multiplication**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/infinite_multiplication): The **Infinite Multiplication** project is developing a program to multiply two large positive numbers. It manages input errors, uses specific C functions and complies with Betty coding standards, highlighting the optimization and efficiency of algorithms.
 
+23. [**Rotate 2D Matrix**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/rotate_2d_matrix): The **Rotate 2D Matrix** project consists of writing a function in Python to rotate a square matrix (n x n) 90 degrees clockwise. The function modifies the matrix in place without an additional data structure. This project strengthens the skills in matrix manipulation and algorithmy, essential in graphic computing and image processing.
+
 ------------------
 
 ## Contact
