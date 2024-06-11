@@ -1,5 +1,7 @@
 # <p align="center">🌟 Rotate 2D Matrix 🌟</p>
 
+![matrix](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/2b42bb5a-4b68-4acc-ad8b-99fdfe1f3459)
+
 ## 📝 Description
 
 The **Rotate 2D Matrix** project consists of writing a function in Python to rotate a square matrix (n x n) by 90 degrees clockwise. This function is designed to modify the matrix in place, i.e. without using an additional data structure to store the result of the rotation.
