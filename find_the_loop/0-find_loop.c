@@ -11,13 +11,13 @@ listint_t *find_listint_loop(listint_t *head) {
     listint_t *slow = head;
     listint_t *fast = head;
 
-    // Check if there is a loop
+    /* Check if there is a loop */
     while (fast != NULL && fast->next != NULL) {
         slow = slow->next;
         fast = fast->next->next;
 
         if (slow == fast) {
-            // Find the start of the loop
+            /* Find the start of the loop */
             slow = head;
             while (slow != fast) {
                 slow = slow->next;
