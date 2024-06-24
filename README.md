@@ -55,6 +55,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 23. [**Rotate 2D Matrix**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/rotate_2d_matrix): The **Rotate 2D Matrix** project consists of writing a function in Python to rotate a square matrix (n x n) 90 degrees clockwise. The function modifies the matrix in place without an additional data structure. This project strengthens the skills in matrix manipulation and algorithmy, essential in graphic computing and image processing.
 
+24. [**Find The Loop**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/find_the_loop): The **Find the Loop** project focuses on the detection of loops in C-chained lists. The main objective is to provide an effective implementation that makes it possible to locate cycles in a data structure, especially chained lists. This project is essential for developers working on data management algorithms, because loop detection is a fundamental operation in optimizing data paths.
+
 ------------------
 
 ## Contact
