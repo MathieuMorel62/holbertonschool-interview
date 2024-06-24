@@ -6,6 +6,7 @@ main_*
 *-main.c
 *-main.py
 *_main.py
+main
 
 # Py Files
 0-generator.py
