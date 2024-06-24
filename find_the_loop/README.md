@@ -1,5 +1,7 @@
 # <p align='center'>🌟 Find the Loop 🌟</p>
 
+![findtheloop](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/a40a2836-18de-47b8-8c5f-5384dc633006)
+
 ## 📝 Description
 
 **Find the Loop** is a project that focuses on the detection of loops in C-chained lists. The main objective is to provide an effective implementation that makes it possible to locate cycles in a data structure, especially chained lists. This project is essential for developers working on data management algorithms, because loop detection is a fundamental operation in optimizing data paths.
