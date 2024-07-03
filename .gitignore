@@ -28,6 +28,7 @@ cycle
 insert
 mul
 palindrome
+merge
 
 # Skiplist files
 0-linked_lists.c
