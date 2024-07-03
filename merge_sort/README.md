@@ -1,5 +1,7 @@
 # <p align="center">🌟 Merge Sort 🌟</p>
 
+![merge](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/722daaf6-5d17-4fd9-970e-eec03c786f2e)
+
 ## 📝 Description
 
 The **Merge Sort** project aims to implement the fusion sorting algorithm, an effective sorting method that uses the divide paradigm to reign. This algorithm is particularly appreciated for its stable-time complexity of \(O(n \log n)\), which makes it powerful even for large data collections.
