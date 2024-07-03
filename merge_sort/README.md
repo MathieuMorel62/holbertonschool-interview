@@ -117,7 +117,7 @@ gcc -Wall -Wextra -Werror -pedantic 0-main.c 0-merge_sort.c print_array.c -o mer
 
 ## 💡 Utilisation
 
-- **Exemple d'utilisation 1** :
+- **Exemple d'utilisation** :
 
 ```sh
 ./merge_sort
