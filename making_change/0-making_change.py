@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """ Making Change """
 
-
 def makeChange(coins, total):
     """
     Given a pile of coins of different values,
@@ -21,7 +20,8 @@ def makeChange(coins, total):
         if total == 0:
             return change
         if total >= coin:
-            change += total // coin
-            total = total % coin
+            num_coins = total // coin
+            change += num_coins
+            total -= num_coins * coin
 
     return -1 if total > 0 else change
