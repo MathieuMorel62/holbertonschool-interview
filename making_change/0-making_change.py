@@ -3,26 +3,18 @@
 
 
 def makeChange(coins, total):
-    """
-    Given a pile of coins of different values,
-    determine the fewest number of coins needed
-    to meet a given amount total.
-    """
     if total <= 0:
         return 0
 
-    if len(coins) == 0:
-        return -1
+    # Initialisation du tableau dp
+    dp = [float('inf')] * (total + 1)
+    dp[0] = 0
 
-    coins.sort(reverse=True)
-    change = 0
+    # Remplir le tableau dp
+    for current_total in range(1, total + 1):
+        for coin in coins:
+            if coin <= current_total:
+                dp[current_total] = min(dp[current_total], dp[current_total - coin] + 1)
 
-    for coin in coins:
-        if total == 0:
-            return change
-        if total >= coin:
-            num_coins = total // coin
-            change += num_coins
-            total -= num_coins * coin
-
-    return -1 if total > 0 else change
+    # Retourner le résultat
+    return dp[total] if dp[total] != float('inf') else -1
