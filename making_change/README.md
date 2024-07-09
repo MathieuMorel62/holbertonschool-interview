@@ -1,5 +1,7 @@
 # <p align="center">🌟 Making Change 🌟</p>
 
+![makingChange](https://github.com/MathieuMorel62/holbertonschool-interview/assets/113856302/b893b72f-ad9b-46ce-9071-897b555411c3)
+
 ## 📝 Description
 
 **Making Change** is a project to solve the problem of finding the minimum number of coins necessary to reach a given total amount from a set of coins of different values. This project highlights algorithm and optimization skills.
