@@ -57,6 +57,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 24. [**Find The Loop**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/find_the_loop): The **Find the Loop** project focuses on the detection of loops in C-chained lists. The main objective is to provide an effective implementation that makes it possible to locate cycles in a data structure, especially chained lists. This project is essential for developers working on data management algorithms, because loop detection is a fundamental operation in optimizing data paths.
 
+25. [**Making Change**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/making_change): The **Making Change** project aims to determine the minimum number of coins needed to reach a given amount from coins of different values. It highlights skills in algorithmy and optimization. Users will learn to design effective algorithms, manipulate lists and manage borderline cases, demonstrating the practical application of theoretical concepts in computer science.
+
 ------------------
 
 ## Contact
