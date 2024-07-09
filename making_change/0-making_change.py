@@ -10,16 +10,20 @@ def makeChange(coins, total):
     if total <= 0:
         return 0
 
-    # Initialisation du tableau dp avec une valeur suffisamment grande
-    dp = [total + 1] * (total + 1)
-    dp[0] = 0
+    memo = {}
 
-    # Remplir le tableau dp
-    for current_total in range(1, total + 1):
+    def dp(n):
+        if n in memo:
+            return memo[n]
+        if n == 0:
+            return 0
+        min_coins = total + 1
         for coin in coins:
-            if coin <= current_total:
-                dp[current_total] = min(dp[current_total],
-                                        dp[current_total - coin] + 1)
+            if n - coin >= 0:
+                num_coins = dp(n - coin)
+                if num_coins != -1:
+                    min_coins = min(min_coins, num_coins + 1)
+        memo[n] = -1 if min_coins == total + 1 else min_coins
+        return memo[n]
 
-    # Retourner le résultat
-    return dp[total] if dp[total] != total + 1 else -1
+    return dp(total)
