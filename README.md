@@ -59,6 +59,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 25. [**Making Change**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/making_change): The **Making Change** project aims to determine the minimum number of coins needed to reach a given amount from coins of different values. It highlights skills in algorithmy and optimization. Users will learn to design effective algorithms, manipulate lists and manage borderline cases, demonstrating the practical application of theoretical concepts in computer science.
 
+26. [**Double Circular Linked List**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/double_circular_linked_list): The **Double Circular Linked List** project involves creating a double circular linked list in C. This project focuses on the manipulation of complex data structures, including linked lists, and the implementation of advanced algorithms. The main objective is to provide a robust implementation that allows the creation, insertion, deletion and display of elements in a double circular linked list.
+
 ------------------
 
 ## Contact
