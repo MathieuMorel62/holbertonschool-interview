@@ -29,6 +29,7 @@ insert
 mul
 palindrome
 merge
+a.out
 
 # Skiplist files
 0-linked_lists.c
