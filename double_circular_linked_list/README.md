@@ -1,5 +1,7 @@
 # <p align="center">🌟 Double Circular Linked List 🌟</p>
 
+![circular](https://github.com/user-attachments/assets/2e43c68e-c7c3-4ae6-a1bf-10130e3c6b6b)
+
 ## 📝 Description
 
 The `Double Circular Linked List` project consists of the creation and management of a circular doubly chained list. This type of data structure makes it possible to navigate in both directions (front and backward) and loop in a circular way, which is particularly useful for applications requiring effective data manipulation.
