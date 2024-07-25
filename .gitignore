@@ -30,6 +30,7 @@ mul
 palindrome
 merge
 a.out
+radix
 
 # Skiplist files
 0-linked_lists.c
