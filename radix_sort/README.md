@@ -1,5 +1,7 @@
 # <p align='center'>🌟 Radix Sort 🌟</p>
 
+![radix](https://github.com/user-attachments/assets/ccfa7341-57c6-4c61-9a24-6831abede9f3)
+
 ## 📝 Description
 
 The **Radix Sort** project is an implementation of the Radix sorting algorithm, designed to sort integer arrays in ascending order. This algorithm is particularly effective for tables containing positive numbers. It works by sorting the numbers digits by digits, starting with the least significant digit (Least Significant Digit - LSD).
