@@ -1,5 +1,7 @@
 # <p align="center">🌟 Island Perimeter 🌟</p>
 
+![maxresdefault](https://github.com/user-attachments/assets/bc72b352-217a-44d8-af46-fb7e8d0302e6)
+
 ## 📝 Description
 
 This project consists of developing a function in Python called `island_perimeter` that calculates the perimeter of an island defined in a grid. The grid is a list of lists of integers where `0` represents water and `1` represents earth. Each cell is square and connected horizontally or vertically (not diagonally).
@@ -97,7 +99,7 @@ Run the program and check the output:
 12
 ```
 
-✨ Main Features
+# ✨ Main Features
 
 1. **Calculation of the perimeter of an island:** The island_perimeter function calculates and returns the `perimeter of the island` in a given grid. It considers the horizontal and vertical connections between earth cells.
 
