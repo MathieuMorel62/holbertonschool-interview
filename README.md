@@ -63,6 +63,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 27. [**Radix Sort**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/radix_sort): The **Radix Sort** project involves creating a function in C to sort an array of integers in ascending order using the Radix sort algorithm. This project focuses on the manipulation of arrays and the implementation of efficient sorting algorithms. The main objective is to provide a robust implementation that sorts the elements of an array in ascending order using the Radix sort algorithm.
 
+28. [**Island Perimeter**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/island_perimeter): The **Island Perimeter** project involves creating a function in Python to calculate the perimeter of an island defined in a grid. The grid is a list of lists of integers where `0` represents water and `1` represents earth. Each cell is square and connected horizontally or vertically (not diagonally). The main objective is to ensure that the perimeter calculation is correct, taking into account that the island is entirely surrounded by water, without internal lakes.
+
 ------------------
 
 ## Contact
