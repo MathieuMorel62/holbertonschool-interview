@@ -1,5 +1,7 @@
 # <p align="center">🌟 AVL Trees 🌟</p>
 
+![avl](https://github.com/user-attachments/assets/17655b30-e53f-4b5a-9277-4e09d72e98d4)
+
 ## 📝 Description
 
 The **AVL Trees project** is an advanced initiative to develop algorithms for verifying and manipulating AVL trees (Adelson-Velsky and Landis Tree), a self-balanced data structure that ensures search, insertion and deletion operations in logarithmic time. This project is crucial to improve the understanding of advanced data structures and their application in high-performance contexts.
@@ -21,7 +23,7 @@ AVL trees, being a form of Binary Search Tree (BST), maintain a strict balance w
 
 ## 📋 Prérequis
 
-- ![C](https://img.shields.io/badge/C-Standard%20Version-brightgreen)
+- ![C](https://img.shields.io/badge/C-89-brightgreen)
 - ![GCC](https://img.shields.io/badge/gcc-4.8.4-blue)
 - ![Ubuntu](https://img.shields.io/badge/Ubuntu-14.04%20LTS-orange)
 
