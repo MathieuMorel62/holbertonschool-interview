@@ -65,6 +65,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 28. [**Island Perimeter**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/island_perimeter): The **Island Perimeter** project involves creating a function in Python to calculate the perimeter of an island defined in a grid. The grid is a list of lists of integers where `0` represents water and `1` represents earth. Each cell is square and connected horizontally or vertically (not diagonally). The main objective is to ensure that the perimeter calculation is correct, taking into account that the island is entirely surrounded by water, without internal lakes.
 
+29. [**AVL Trees**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/avl_trees): The **AVL Trees** project involves creating a function in C to check if a binary tree is a valid AVL Tree. This project focuses on the manipulation of binary trees and the implementation of efficient algorithms. The main objective is to provide a robust implementation that checks if a binary tree is a valid AVL Tree.
+
 ------------------
 
 ## Contact
