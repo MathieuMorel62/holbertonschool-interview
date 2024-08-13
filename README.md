@@ -67,6 +67,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 29. [**AVL Trees**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/avl_trees): The **AVL Trees** project involves creating a function in C to check if a binary tree is a valid AVL Tree. This project focuses on the manipulation of binary trees and the implementation of efficient algorithms. The main objective is to provide a robust implementation that checks if a binary tree is a valid AVL Tree.
 
+30. [**Wild CMP**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/wild_cmp): The **Wild CMP** project involves creating a function in C to compare two strings and return 1 if they are identical, otherwise return 0. This project focuses on the manipulation of strings and the implementation of efficient algorithms. The main objective is to provide a robust implementation that compares two strings and returns 1 if they are identical, otherwise returns 0.
+
 ------------------
 
 ## Contact
