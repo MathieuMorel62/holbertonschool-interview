@@ -1,5 +1,7 @@
 # <p align="center">🌟 Wild CMP 🌟</p>
 
+![wildcmp](https://github.com/user-attachments/assets/40f18bca-7763-4463-ac2c-18e9460ae6f5)
+
 ## 📝 Description
 
 The **Wild Compare project** aims to develop a function to compare two strings taking into account special characters. This function is crucial in contexts where the flexibility of string comparison is necessary, especially in filtering or search operations. The project meets the need to manage complex string comparisons, including a special character `*` that can represent any sequence of characters, including an empty string.
@@ -131,7 +133,7 @@ gcc -Wall -pedantic -Werror -Wextra 0-main.c 0-wildcmp.c -o wildcmp
 
 2. Support for complex motifs:
 
-    - The function handles complex patterns where the * character can be used several times in the comparison string, offering great flexibility in filtering or search operations.
+    - The function handles complex patterns where the `*` character can be used several times in the comparison string, offering great flexibility in filtering or search operations.
 
 ## 📝 List of Tasks
 
