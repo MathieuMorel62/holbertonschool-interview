@@ -31,6 +31,7 @@ palindrome
 merge
 a.out
 radix
+0-wildcmp
 
 # Skiplist files
 0-linked_lists.c
