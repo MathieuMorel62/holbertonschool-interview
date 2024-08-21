@@ -69,6 +69,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 30. [**Wild CMP**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/wild_cmp): The **Wild CMP** project involves creating a function in C to compare two strings and return 1 if they are identical, otherwise return 0. This project focuses on the manipulation of strings and the implementation of efficient algorithms. The main objective is to provide a robust implementation that compares two strings and returns 1 if they are identical, otherwise returns 0.
 
+31. [**Pascal Triangle**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/pascal_triangle): The **Pascal Triangle** project involves creating a function in Python to generate Pascal's triangle. This project focuses on the manipulation of lists and the implementation of efficient algorithms. The main objective is to provide a robust implementation that generates Pascal's triangle up to a specified number of rows.
+
 ------------------
 
 ## Contact
