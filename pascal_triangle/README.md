@@ -1,4 +1,6 @@
-# <p alig="center">🌟 Pascal's Triangle 🌟</p>
+# <p align="center">🌟 Pascal's Triangle 🌟</p>
+
+![triangle pascal](https://github.com/user-attachments/assets/816e6c8d-543b-43b6-b506-6ed10edb82ba)
 
 ## 📝 Description
 
