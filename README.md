@@ -71,6 +71,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 31. [**Pascal Triangle**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/pascal_triangle): The **Pascal Triangle** project involves creating a function in Python to generate Pascal's triangle. This project focuses on the manipulation of lists and the implementation of efficient algorithms. The main objective is to provide a robust implementation that generates Pascal's triangle up to a specified number of rows.
 
+32. [**Regex**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/regex): The **Regex** project involves creating a function in Python to determine if a given pattern matches a given string. This project focuses on the manipulation of regular expressions and the implementation of efficient algorithms. The main objective is to provide a robust implementation that determines if a given pattern matches a given string.
+
 ------------------
 
 ## Contact
