@@ -1,5 +1,7 @@
 # <p align="center">🌟 RegEx Project 🌟</p>
 
+![regex](https://github.com/user-attachments/assets/11169e46-bc99-4a15-a4a9-5b23d89d81ca)
+
 ## 📝 Description
 
 This project consists of creating a function capable of checking whether a given pattern corresponds to a specific string using regular expressions. The function must handle the special characters `.` and `*`, where `.` corresponds to any unique character, and `*` corresponds to zero or more of the previous character. This project is particularly useful for understanding and implementing fundamental concepts of regular expressions in C.
