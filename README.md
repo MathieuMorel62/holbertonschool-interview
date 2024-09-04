@@ -73,6 +73,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 32. [**Regex**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/regex): The **Regex** project involves creating a function in Python to determine if a given pattern matches a given string. This project focuses on the manipulation of regular expressions and the implementation of efficient algorithms. The main objective is to provide a robust implementation that determines if a given pattern matches a given string.
 
+33. [**Substring**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/substring): The **Substring** project involves creating a function in Python to find all possible substrings containing a list of words in a given string. This project focuses on the manipulation of strings and the implementation of efficient algorithms. The main objective is to provide a robust implementation that finds all possible substrings containing a list of words in a given string.
+
 ------------------
 
 ## Contact
