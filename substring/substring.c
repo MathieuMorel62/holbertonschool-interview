@@ -1,16 +1,15 @@
 #include "substring.h"
-#include <stdlib.h>
-#include <string.h>
+
 
 /**
- * is_valid_substring - Vérifie si une sous-chaîne est valide
- * @s: La chaîne dans laquelle chercher
- * @words: Les mots à rechercher
- * @nb_words: Le nombre de mots à rechercher
- * @word_len: La longueur des mots
- * @start: L'index de début de la sous-chaîne
+ * is_valid_substring - Checks if a substring is valid
+ * @s: The string to search
+ * @words: The words to search for
+ * @nb_words: The number of words to search for
+ * @word_len: The length of the words
+ * @start: The start index of the substring
  *
- * Return: 1 si la sous-chaîne est valide, 0 sinon
+ * Return: 1 if the substring is valid, 0 otherwise
  */
 int is_valid_substring(
 	const char *s, char const **words, int nb_words, int word_len, int start)
@@ -44,6 +43,16 @@ int is_valid_substring(
 	return (1);
 }
 
+/**
+ * find_substring - Finds all index positions where a substring
+ * @s: The string to search
+ * @words: The words to search for
+ * @nb_words: The number of words to search for
+ * @n: A pointer to the number of substrings found
+ *
+ * Return: An array of indices where the substrings begin,
+ * or NULL if nothing is found
+ */
 int *find_substring(char const *s, char const **words, int nb_words, int *n)
 {
 	int s_len, word_len, substr_len, max_indices;
@@ -56,6 +65,13 @@ int *find_substring(char const *s, char const **words, int nb_words, int *n)
 	s_len = strlen(s);
 	word_len = strlen(words[0]);
 	substr_len = word_len * nb_words;
+
+	if (substr_len > s_len)
+	{
+		*n = 0;
+		return (NULL);
+	}
+
 	max_indices = s_len - substr_len + 1;
 
 	result = (int *)malloc(max_indices * sizeof(int));
@@ -67,9 +83,7 @@ int *find_substring(char const *s, char const **words, int nb_words, int *n)
 	for (i = 0; i <= s_len - substr_len; i++)
 	{
 		if (is_valid_substring(s, words, nb_words, word_len, i))
-		{
 			result[(*n)++] = i;
-		}
 	}
 
 	if (*n == 0)
