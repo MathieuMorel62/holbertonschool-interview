@@ -1,5 +1,7 @@
 # <p align="center">🌟 Substring 🌟</p>
 
+![substring](https://github.com/user-attachments/assets/f8baae9d-ec7c-4d53-ae41-1c9aaacb3ba7)
+
 ## 📝 Description
 
 This project aims to implement a function that finds all possible substrings containing a list of words, within a given string. The objective is to detect the clues where these substrings appear under certain conditions: the words must appear exactly once, without additional characters between them, and each word has the same length.
