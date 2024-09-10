@@ -4,7 +4,14 @@
 
 def isWinner(x, nums):
   """
-  Determine the winner of the prime game
+  Determines the winner of the prime number game.
+  
+  Args:
+      x (int): The number of rounds.
+      nums (list): A list of numbers to analyze.
+
+  Returns:
+      str: The name of the winner ("Maria" or "Ben") or None in case of a tie.
   """
   def count_wins(n):
     """
