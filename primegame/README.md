@@ -1,8 +1,10 @@
 # <p align='center'>🌟 Prime Game 🌟</p>
 
+![primegame](https://github.com/user-attachments/assets/f40147df-ec8a-44f3-9842-f8c59329b258)
+
 ## 📝 Description
 
-Prime Game is an algorithmic game project where two players, Maria and Ben, participate in a series of rounds based on prime numbers. The game takes place with a set of consecutive integers, starting from 1 to a given number (n). Players take turns to choose a prime number and eliminate that number and all its multiples of the set. The player who can no longer make a move loses the game.
+**Prime Game** is an algorithmic game project where two players, Maria and Ben, participate in a series of rounds based on prime numbers. The game takes place with a set of consecutive integers, starting from `1` to a given number `(n)`. Players take turns to choose a prime number and eliminate that number and all its multiples of the set. The player who can no longer make a move loses the game.
 
 The project consists of determining, after several rounds, the winner according to the optimal strategies adopted by the players. The program must determine the winner for each round and return the name of the player who has won the most rounds. This project tests the optimization of algorithms and the ability to manipulate prime numbers effectively.
 
@@ -18,11 +20,11 @@ The project consists of determining, after several rounds, the winner according 
 
 ## 📋 Prerequisites
 
-![ Python](https://img.shields.io/badge/python-3.4.x-blue): The project requires Python version 3.4.x.
+![ Python](https://img.shields.io/badge/python-3.4.x-blue)
 
-![ Ubuntu](https://img.shields.io/badge/Ubuntu-14.04_LTS-orange): The code must be executed on a machine with Ubuntu 14.04 LTS.
+![ Ubuntu](https://img.shields.io/badge/Ubuntu-14.04_LTS-orange)
 
-![ PEP 8](https://img.shields.io/badge/PEP%208-v1.7.x-green): All files must comply with the PEP style 8 version 1.7.x.
+![ PEP 8](https://img.shields.io/badge/PEP%208-v1.7.x-green)
 
 ## 📊 Data Files
 
