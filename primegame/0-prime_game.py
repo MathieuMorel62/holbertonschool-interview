@@ -4,14 +4,7 @@
 
 def isWinner(x, nums):
   """
-  Determines the winner of the prime number game.
-  
-  Args:
-      x (int): The number of rounds.
-      nums (list): A list of numbers to analyze.
-
-  Returns:
-      str: The name of the winner ("Maria" or "Ben") or None in case of a tie.
+  Determine the winner of the prime game
   """
   def count_wins(n):
     """
@@ -24,7 +17,7 @@ def isWinner(x, nums):
     primes = [True] * (n + 1)
     primes[0] = primes[1] = False
 
-    # Sieve of Eratosthenes to find prime numbers
+  
     for i in range(2, int(n**0.5) + 1):
       if primes[i]:
         for j in range(i * i, n + 1, i):
@@ -49,4 +42,4 @@ def isWinner(x, nums):
   elif ben_wins > maria_wins:
       return "Ben"
   else:
-      return None
+      return "None"
