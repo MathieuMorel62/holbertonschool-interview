@@ -75,6 +75,8 @@ Here is a series of algorithms to solve, each designed to enhance problem-solvin
 
 33. [**Substring**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/substring): The **Substring** project involves creating a function in Python to find all possible substrings containing a list of words in a given string. This project focuses on the manipulation of strings and the implementation of efficient algorithms. The main objective is to provide a robust implementation that finds all possible substrings containing a list of words in a given string.
 
+34. [**Prime Game**](https://github.com/MathieuMorel62/holbertonschool-interview/tree/main/primegame): The project prime game implements a strategy game based on prime numbers. Two players, Maria and Ben, compete in several rounds. In each round, the player who can choose a prime number wins. The script determines the overall winner by counting each player's victories over a specified series of rounds. It uses the Sieve of Eratosthenes algorithm to generate prime numbers up to a given maximum.
+
 ------------------
 
 ## Contact
